@@ -1,0 +1,335 @@
+body{
+    padding-top: 85px;
+}
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+    background-color: #128C7E;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+  }
+  
+  .whatsapp-float i {
+    margin-top: 10px;
+  }
+  
+  .whatsapp-text {
+    position: fixed;
+    bottom: 110px;
+    right: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-family: 'Fredoka', sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-float:hover + .whatsapp-text {
+    opacity: 1;
+    visibility: visible;
+  }
+  .redes {
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      background-color: #287fb8;
+  }
+  .redes i {
+      font-size: 20px; 
+      color: #ffffff; 
+      transition: color 0.3s ease, transform 0.3s ease;
+  }
+  .redes i:hover {
+      color: black;
+      transform: scale(1.2); 
+  }
+  nav { 
+    position: fixed !important; 
+    top: 0 !important ;
+    width: 100% !important;
+    z-index: 1000 !important;
+  }
+  
+  .navbar-brand {
+      color: black !important;
+  }
+  
+  
+  .navbar-nav .nav-link {
+      color: black !important;
+      transition: color 0.3s ease !important; 
+  }
+  
+  /* Cambiar el color de los enlaces cuando se pasa el mouse (hover) */
+  .navbar-nav .nav-link:hover {
+      color: #951bff !important;
+  }
+  
+  
+  .navbar-toggler {
+      border-color: #fff !important; 
+  }
+  
+  .navbar-toggler-icon {
+      background-color: #fff !important; 
+  }
+  .contenido1 {
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+  }
+  .primero {
+      display: flex;
+      justify-content:center ;
+      align-items: center; 
+      height: 400px; 
+      background-image:url(../imagen/nosotros/husky-3965255_1280.jpg);
+      background-size: cover;
+      background-position: center;
+    color: white;  
+    position: relative;
+    padding-left: 30px;
+    padding-right: 60px;
+  }
+  .primero h1 {
+    color: #1ebe9e !important;
+    font-style: oblique;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: "EB Garamond", serif;
+  }
+    
+  .primero h2 {
+    font-size: 2rem; 
+    margin-bottom: 15px;
+    font-family: "Playwrite HR Lijeva", cursive;
+  }
+    
+  .primmero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-family: "EB Garamond", serif;
+  }
+  .segundo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color:#f2e3a6;
+    height: 500px;
+    padding-right: 200px;
+}
+
+.text {
+
+    flex: 1;
+    width: 600px;
+    text-align: justify;
+    padding: 10px;
+    font-size: 14px;
+    padding-left: 80px;
+    font-family: "Playwrite DE Grund Guides", cursive;
+}
+
+.foto {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img {
+    max-width: 190%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+/* Estilos para el botón */
+.btns {
+    padding: 12px 24px !important;
+    background-color: #b0aae9    !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    transition: all 1s ease !important;
+  }
+  
+  /* Efecto al pasar el cursor */
+  .btns:hover {
+    background-color: #9086ff !important;
+    transform: translateY(-3px) !important;
+  }
+  
+.tercero video{
+    width: 100%;
+
+}
+.cuarto h1{
+   text-align: center;
+   font-family: "Playwrite HR Lijeva", serif;
+   padding: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+.local h1{
+    font-family: "Playwrite HR Lijeva", serif;
+    color: #128C7E;
+    text-align: center;
+}
+  .item {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .item-text {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  .gallery-container {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color:#1d232c;
+  }
+  .gallery {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 60px;
+    height: 300px;
+  }
+  
+  .gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: rgb(109, 100, 40) solid;
+  }
+  
+  .gallery-text {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+    height: 100px;
+  }
+  
+  .gallery-button button {
+    padding: 10px 20px;
+    background-color: #1d232c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: white solid;
+    border-radius: 40px;
+  }
+  
+  .gallery-button button:hover {
+    background-color: white;
+    border: mediumpurple solid;
+    color: #1d232c;
+    border-radius: 40px;
+  }
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;  /* En pantallas pequeñas, la imagen y el formulario se apilan */
+    }
+  
+    .col-md-4, .col-md-6 {
+      flex: 1 1 100%;  /* En pantallas pequeñas, ambos elementos ocupan el 100% */
+    }
+  }
+  footer {
+    background-color: #333;
+  }
+  
+  footer h5 {
+    color: #32cfbf;
+    font-size: 1rem; /* Reducir tamaño de los títulos */
+  }
+  
+  footer p, footer li, footer a {
+    font-size: 0.85rem; /* Reducir tamaño del texto */
+  }
+  
+  footer .list-unstyled a:hover {
+    color: #32cfbf;
+    text-decoration: underline;
+  }
+  
+  footer .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  footer .social-icons a:hover {
+    color: #32cfbf;
+  }
+  
+  footer .input-group input {
+    border-radius: 0;
+  }
+  
+  footer .input-group button {
+    border-radius: 0;
+    background-color: #32cfbf;
+    color: white;
+  }
+  
+  footer .input-group button:hover {
+    background-color: #28a89f;
+  }
+  
